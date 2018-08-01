@@ -1,84 +1,133 @@
-html,body {
-    margin: 0; 
-    width: 100%; 
+
+.graduated, .fullscreen{
+    position: absolute;
+    width: 200%;
     height: 100%;
-    background-color: gray;
-    font-family: meiryo,sans-serif;
+    left: 0;
+    z-index: 1;
+    vertical-align: middle;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
-body{
+.graduated {
+    /*background-image: url(../pictures/top_back.jpg);*/
+    background-size: cover;
+    top: 0;
+}
+
+#menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 40px;
+    z-index: 70;
+    width: 100%;
+    padding: 0;
     margin: 0;
 }
 
-a:link{color:#4169e1;}
-a:visited{color:#4169e1;}
-a:hover{color:#4169e1;}
-a:active{color:#4169e1;}
+#menu ul{
+    list-style: none;
+}
+#menu li{
+    display: inline-block;
+    margin: 5px;
+    color: #000;
+    background: #fff;
+    background: rgba(255,255,255, 0.3);
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
 
-#container{
-    position: relative; 
-    margin-left:auto;
-    margin-right:auto;
-    width: 800px; 
-    min-height: 100%;
-    height: auto !important; 
-    height: 100%; 
-    background-color: white;
 }
 
-#header{
-    width: 100%;
-    height: 60px;
-    margin:0px;
-    padding: 0px;
-    background-color: #191970; 
-    color: #FFF;
+#menu li.active {
+    background: #666;
+    background: rgba(255,255,255, 1);
+    color: #000;
 }
 
-#header h1{
-    margin:0px;
-    line-height: 60px;
-    padding-left:10px;
-    
+#menu li a, #menu li.active a{
+    padding: 5px 10px;
+    display: block;
+    text-decoration:none;
+    color:#000;
+    font-family: 'Noto Sans', sans-serif;
 }
 
-#main{ 
-    /*padding-top: 60px;*/
-    padding-bottom: 30px;
-    background-color: #fff; 
-    margin-left:10px;
-    margin-right: 10px;
+#myContainer{
+    color:#CCC;
+    word-wrap: break-word;
+    font-family: 'Noto Sans', sans-serif;
+    font-size:120%;
 }
 
-#main h2{
-    margin-top:10px;
-    margin-bottom:5px;
+#myContainer h1{
+    font-size: 200%;
+    margin-bottom: 5%;
+    color: #fff;
 }
 
-#main h3{
-    margin-top: 5px;
-    margin-bottom:5px;
+#myContainer h2{
+    font-size: 150%;
+    margin-bottom: 0px;
+    color: #fff;
 }
 
-#content{
-    padding-left: 30px;
-    padding-right:10px;
+#myContainer h3{
+    font-size: 120%;
+    margin-bottom: 0px;
+    color: #fff;
 }
 
-#content ul{
-    margin-top:0;
-    margin-bottom:0;
-    padding-left:10px;
+#top{
+    font-family: 'Antic', sans-serif;
+    color: #fff;
 }
 
-#footer{
-    position: absolute;
-    width: 100%;
-    height: 30px; 
-    background-color: #4f4f51; 
-    color: #FFF;
-    /*position: fixed;*/
-    bottom: 0;
-    line-height: 30px;
-    text-align: center;
+#top h1{
+    font-size:350%;
+    margin-top:0px;
+}
+
+#left-box{
+    margin-left:15%;
+    margin-top:15%;
+    height:100%;
+    color:#CCC;
+}
+
+#right-box{
+    padding-left: 5%;
+    margin-right:15%;
+    margin-top:15%;
+    padding-top:12%;
+    height:100%;
+    color:#CCC;
+}
+
+#pictureright{
+    margin-left:50%;
+    width:50%;
+}
+
+#creation-box{
+    margin-left:5%;
+}
+
+#creation-box img{
+    height:30px;
+}
+
+#creation-box a{
+    margin-left:0px;
+    margin-right:5px;
+    color:#CCC;
+}
+
+#creation-text{
+    color:#CCC;
+    font-size:30px;
 }
