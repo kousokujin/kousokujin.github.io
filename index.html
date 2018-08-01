@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-
 <html>
     <head>
         <meta charset="utf-8"/>
         <link rel="stylesheet" type="text/css" href="css/main.css">
         <title>高速人のページ</title>
+        <link rel="shortcut icon" href="pictures/icon.jpg" type="image/jpg">
 
         <!--Twitterカードなど-->
         <meta name="twitter:card" content="summary" />
@@ -12,46 +12,142 @@
         <meta property="og:url" content="https://kousokujin.github.io/" />
         <meta property="og:title" content="高速人のページ" />
         <meta property="og:description" content="高速人の自己紹介とか。" />
-        <meta property="og:image" content="https://kousokujin.github.io/icon.jpg" />
+        <meta property="og:image" content="https://kousokujin.github.io/pictures/icon.jpg" />
+
+        <link rel="stylesheet" type="text/css" href="css/jquery.multiscroll.css" />
+        <link rel="stylesheet" type="text/css" href="css/main.css" />
+        <link rel="stylesheet" type="text/css" href="css/scrolldown.css" />		
+	    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	    <script type="text/javascript" src="js/jquery.easings.min.js"></script>
+        <script type="text/javascript" src="js/jquery.multiscroll.js"></script>
+        
+        <!--フォントとか-->
+        <link href="https://fonts.googleapis.com/css?family=Antic" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet"> 
+
+	    <script type="text/javascript">
+	        $(document).ready(function() {
+                $('#myContainer').multiscroll({
+            	    sectionsColor: ['#888', '#000', '#0657d8',"#03510f"],
+            	    anchors: ['top', 'aboutme', 'creations','contacts'],
+            	    menu: '#menu',
+            	    navigation: true,
+            	    navigationTooltips: ['Top', 'About Me', 'Creations','Contacts'],
+            	    loopBottom: true,
+            	    loopTop: true
+                });
+            });
+    </script>
     </head>
     <body>
-        <div id="container">
-            <div id="header">
-                <h1>高速人のページ</h1>
-            </div>
-            <div id="main">
-                <h2>プロフィール</h2>
-                <div id="content">
-                    <h3>名前</h3>
-                        高速人 (kousokujin)
-                    <h3>自己紹介</h3>
-                        普段はゲームやったりしています。ほとんどPSO2です。<br />
-                        たまーにコーディングとかしてます。一番好きなプログラミング言語はC#です。<br />
-                        ツナマヨおにぎりとたまごサンドが好きです。<br />
-                        嫁はPSO2の自キャラです。<br />
+        <ul id="menu">
+            <li data-menuanchor="top"><a href="#top">Top</a></li>
+            <li data-menuanchor="aboutme"><a href="#aboutme">About Me</a></li>
+            <li data-menuanchor="creations"><a href="#creations">Creations</a></li>
+            <li data-menuanchor="contacts"><a href="#contacts">Contacts</a></li>
+        </ul>
+        
+        <div id="myContainer">
+        
+            <div class="ms-left">
+                <div class="ms-section" id="top">
+                    <div class="graduated"></div>
+                    <div class="fullscreen" id="top">
+                        <h1>Wellcom to kousokujin.com</h1>
+                        <div id="scdown">
+                                <a href="#aboutme"><span></span><h1>Scroll Down</h1></a>
+                        </div>
+                    </div>
                 </div>
-                <h2>作ったやつ</h2>
-                <div id="content">
-                    <h3><a href = "https://github.com/kousokujin/lentum">lentum</a></h3>
-                        デスクトップに付箋紙みたいなのを貼り付けるやつです。
-                    <h3><a href = "https://github.com/kousokujin/horloge">horloge</a></h3>
-                        デスクトップに現在時刻を表示します。時計ウィジェット。
-                    <h3><a href = "https://github.com/kousokujin/PSO2emergencyToDiscord">PSO2emergencyToDiscord</a></h3>
-                        PSO2の緊急クエスト(予告緊急のみ)をDiscordに通知するやつ。
+        
+                <div class="ms-section">
+                    <div id="left-box">
+                        <h1>About Me</h1>
+                        <img src=pictures/icon.jpg id="pictureright">
+                    </div>
                 </div>
-                <h2>Link</h2>
-                <div id="content">
-                    <ul>
-                        <li><a href="https://twitter.com/highsokujin">Twitter</a></li>
-                        <li><a href="https://mstdn.jp/@highsokujin">Mastodon</a></li>
-                        <li><a href="https://github.com/kousokujin">github</a></li>
-                        <li><a href="http://www.amazon.co.jp/registry/wishlist/26X6O8SUUEDE4/ref=cm_sw_r_tw_ws_x_z2qUzbB9EDCDC">ほしいものリスト</a></li>
-                    </ul>
+        
+                <div class="ms-section">
+                    <div id="left-box">
+                        <h1>Creations</h1>
+                        <div id="creation-box">
+                            <h2>lentum</h2>
+                            デスクトップに付箋紙みたいなのを貼り付けるやつです。<br/>
+                            <a href="https://github.com/kousokujin/lentum">
+                                <img src=pictures/github-logo.png>
+                            </a>
+                            <h2>horloge</h2>
+                            デスクトップに現在時刻を表示します。時計ウィジェット。<br/>
+                            <a href="https://github.com/kousokujin/horloge">
+                                <img src=pictures/github-logo.png>
+                            </a> 
+                            <h2>PSO2emergencyToDiscord</h2>
+                            PSO2の緊急クエスト(予告緊急のみ)をDiscordに通知するやつ。<br/>
+                            <a href="https://github.com/kousokujin/PSO2emergencyToDiscord">
+                                <img src=pictures/github-logo.png>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="ms-section">
+                    <div id="left-box">
+                        <h1>Contacts</h1>
+                        <div id="creation-box">
+                            <h3>Twitter</h3>
+                            <a href="https://twitter.com/highsokujin">@highsokujin</a>
+                            <h3>Mastodon</h3>
+                            <a href="https://mstdn.jp/@highsokujin">@highsokujin@mstdn.jp</a>
+                            <h3>Github</h3>
+                            <a href="https://github.com/kousokujin">kousokujin</a>
+                            <h3>Discord</h3>
+                            高速人#2910
+                            <h3>ほしいものリスト</h3>
+                            <a href="http://www.amazon.co.jp/registry/wishlist/26X6O8SUUEDE4/ref=cm_sw_r_tw_ws_x_z2qUzbB9EDCDC">Amazon</a>
+                            
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div id="footer">
-                Copyright (C) 2017 kousokujin. All Rights Reserved.
-            </div>
+            
+            <div class="ms-right">
+                <div class="ms-section"></div>
+        
+                <div class="ms-section">
+                    <div id="right-box">
+                        <h2>Name</h2>
+                            高速人(kousokujin)
+                        <h2>Birthday</h2>
+                            August 3rd,1995
+                        <h2>Hobby</h2>
+                            Game(PSO2.Minecraft,etc...),Programing
+                        <h2>Like</h2>
+                            たまごサンド,ツナマヨおにぎり,PSO2の自キャラ,etc...
+                    </div>
+
+                </div>
+        
+                <div class="ms-section">
+                    <div id="right-box">
+                        <div id="creation-box">
+                            <h2>暗影渦巻く壊れた世界の通知Bot</h2>
+                            PSO2の暗影クエストが発生している時にTwitterに通知するbot。 <br />
+                            <a href="https://github.com/kousokujin/ANEI_bot">
+                                <img src=pictures/github-logo.png>
+                            </a>
+                            <a href="https://twitter.com/AneiBot">
+                                <img src=pictures/twitter-logo.png>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="ms-section">
+                    <div id="right-box">
+                    </div>
+                </div>
+            </div>	
         </div>
+        
     </body>
 </html>
