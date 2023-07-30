@@ -1,5 +1,5 @@
 <template>
-    <v-app-bar>
+    <v-app-bar :image="header_img">
       <v-container class="fill-height d-flex align-center">
         <v-avatar
           class="me-10 ms-4"
@@ -20,6 +20,8 @@
 
 <script setup lang="ts">
     import icon from "@/assets/icon.jpg"
+    import header_img from "@/assets/header.jpg"
+
     import { ref } from "vue";
 
     interface Ilink_list{
