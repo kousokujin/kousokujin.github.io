@@ -1,11 +1,15 @@
 <template>
     <v-row>
-        <v-col cols="3">
-            <v-container>
-                <v-img :src="icon" width="300"></v-img>
-            </v-container>
+        <v-col cols="12" sm="4">
+            <v-row>
+                <v-spacer></v-spacer>
+                <v-col>
+                    <v-img :src="icon" width="300"></v-img>
+                </v-col>
+                <v-spacer></v-spacer>
+            </v-row>
         </v-col>
-        <v-col cols="6">
+        <v-col cols="12" sm="8">
             <v-container>
                 <v-col>
                     <v-card>
@@ -32,13 +36,22 @@
                         </v-card-item>
                     </v-card>
                 </v-col>
+                <v-col>
+                    <v-card>
+                        <v-card-item>
+                            <div class="text-subtitle-1"><v-icon :icon="mdiController"></v-icon>ゲームとか</div>
+                            <div v-for="item in game_item" class="text-body-1">{{item}}</div>
+                        </v-card-item>
+                    </v-card>
+                </v-col>
             </v-container>
         </v-col>
     </v-row>
 </template>
 <script setup lang="ts">
     import icon from "@/assets/icon.jpg"
-    import { mdiAccount, mdiHeart, mdiCake } from '@mdi/js'
+    import { mdiAccount, mdiHeart, mdiCake, mdiController } from '@mdi/js'
 
-    const like_item = ["たまごサンド", "VTuber", "IPv6"]
+    const like_item = ["たまごサンド", "VTuber(主にホロライブ)", "IPv6"]
+    const game_item = ["PSO2","Tower of Fantacy"]
 </script>

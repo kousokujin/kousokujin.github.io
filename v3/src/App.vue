@@ -3,7 +3,13 @@
     <navbar :link_list="link_list"></navbar>
     <v-main>
       <v-container>
-        <router-view/>
+        <v-row>
+          <v-spacer></v-spacer>
+          <v-col cols="12">
+            <router-view/>
+          </v-col>
+          <v-spacer></v-spacer>
+        </v-row>
       </v-container>
     </v-main>
   </v-app>
@@ -19,6 +25,10 @@
     {
       to: "/creation",
       text: "作ったもの"
+    },
+    {
+      to: "/contact",
+      text: "Contacts"
     }
   ]
 </script>
