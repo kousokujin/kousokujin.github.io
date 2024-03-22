@@ -10,21 +10,21 @@
     "type-check": "vue-tsc --noEmit -p tsconfig.app.json --composite false"
   },
   "dependencies": {
-    "simple-icons": "^9.9.0",
-    "vue": "^3.3.4",
-    "vue-router": "^4.2.4",
-    "vuetify": "^3.3.10"
+    "simple-icons": "^11.9.0",
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.0",
+    "vuetify": "^3.5.11"
   },
   "devDependencies": {
-    "@mdi/js": "^7.2.96",
-    "@tsconfig/node18": "^18.2.0",
-    "@types/node": "^18.17.0",
-    "@vitejs/plugin-vue": "^4.2.3",
-    "@vue/tsconfig": "^0.4.0",
+    "@mdi/js": "^7.4.47",
+    "@tsconfig/node18": "^18.2.2",
+    "@types/node": "^20.11.30",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "@vue/tsconfig": "^0.5.1",
     "npm-run-all": "^4.1.5",
-    "typescript": "~5.1.6",
-    "vite": "^4.4.6",
-    "vite-plugin-vuetify": "^1.0.2",
-    "vue-tsc": "^1.8.6"
+    "typescript": "~5.4.3",
+    "vite": "^5.2.3",
+    "vite-plugin-vuetify": "^2.0.3",
+    "vue-tsc": "^2.0.7"
   }
 }
