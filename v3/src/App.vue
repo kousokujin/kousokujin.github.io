@@ -29,6 +29,10 @@
     {
       to: "/contact",
       text: "Contacts"
+    },
+    {
+      to: "/song_list",
+      text: "歌えるリスト"
     }
   ]
 </script>

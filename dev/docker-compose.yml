@@ -8,8 +8,11 @@ services:
       TZ: 'Asia/Tokyo'
     volumes:
       - ../v3/:/usr/var/app
+      - ./vscode-data/:/root/.vscode-server
   http:
-    image: httpd
+    build:
+      context: ./http
+      dockerfile: ./Dockerfile
     volumes:
       - ../v3/dist/:/usr/local/apache2/htdocs/
     ports:
