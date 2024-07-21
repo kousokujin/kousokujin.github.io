@@ -13,6 +13,14 @@
     <meta property="og:title" content="高速人のページ" />
     <meta property="og:description" content="高速人の自己紹介とか。" />
     <meta property="og:image" content="https://kousokujin.github.io/icon.jpg" />
+
+    <script>
+      (function (l) {
+        if (l.hash) {
+          window.history.replaceState(null, null, l.hash.slice(1));
+        }
+      })(window.location);
+    </script>
   </head>
   <body>
     <div id="app"></div>

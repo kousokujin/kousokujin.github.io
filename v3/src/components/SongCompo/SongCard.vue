@@ -1,6 +1,6 @@
 <template>
     <v-row>
-        <v-col v-for="item in song_data.song_filterd" cols="12" sm="4">
+        <v-col v-for="item in song_data.song_filterd" cols="12" md="4">
             <v-card>
                 <v-card-title>{{item.title}}</v-card-title>
                 <v-card-subtitle>{{item.artist}}</v-card-subtitle>
