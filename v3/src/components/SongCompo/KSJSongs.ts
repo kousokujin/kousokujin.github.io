@@ -573,6 +573,202 @@ const songs = [
         "artist_kana": "ﾆｬｰｽ ｲﾇﾔﾏｲﾇｺ",
         "tags": ["ポケモン"]
     },
+    {
+        "title": "中空の庭",
+        "title_kana": "ﾍﾞｯｾｶｲ",
+        "artist": "天音かなた",
+        "artist_kana": "ｱﾏﾈｶﾅﾀ",
+        "tags": ["ホロライブ", "VTuber"]
+    },
+    {
+        "title": "蜜月アン・ドゥ・トロワ",
+        "title_kana": "ﾐﾂｹﾞﾂｱﾝﾄﾞｩﾄﾛﾜ",
+        "artist": "DATEKEN",
+        "artist_kana": "ﾀﾞﾃｹﾝ",
+        "tags": ["VOCALOID"]
+    },
+    {
+        "title": "人マニア",
+        "title_kana": "ﾋﾄﾏﾆｱ",
+        "artist": "原口沙輔",
+        "artist_kana": "ﾊﾗｸﾞﾁｻｽｹ",
+        "tags": ["VOCALOID"]
+    },
+    {
+        "title": "ファンサ",
+        "title_kana": "ﾌｧﾝｻ",
+        "artist": "mona(CV:夏川椎菜)",
+        "artist_kana": "ﾓﾅ ﾅﾂｶﾜｼｲ",
+        "tags": []
+    },
+    {
+        "title": "ハネウマライダー",
+        "title_kana": "ﾊﾈｳﾏﾗｲﾀﾞｰ",
+        "artist": "ポルノグラフィティ",
+        "artist_kana": "ﾎﾟﾙﾉｸﾞﾗﾌｨﾃｨ",
+        "tags": []
+    },
+    {
+        "title": "FACT",
+        "title_kana": "ﾌｧｸﾄ",
+        "artist": "常闇トワ",
+        "artist_kana": "ﾄｺﾔﾐﾄﾜ",
+        "tags": ["ホロライブ", "VTuber"]
+    },
+    {
+        "title": "ライオン",
+        "title_kana": "ﾗｲｵﾝ",
+        "artist": "中島愛",
+        "artist_kana": "ﾅｶｼﾞﾏﾒｸﾞﾐ",
+        "tags": []
+    },
+    {
+        "title": "うい麦畑で捕まえて",
+        "title_kana": "ｳｲﾑｷﾞﾊﾞﾀｹﾃﾞﾂｶﾏｴﾃ",
+        "artist": "しぐれうい",
+        "artist_kana": "ｼｸﾞﾚｳｲ",
+        "tags": ["VTuber"]
+    },
+    {
+        "title": "カントリー・ロード",
+        "title_kana": "ｶﾝﾄﾘｰﾛｰﾄﾞ",
+        "artist": "本名陽子",
+        "artist_kana": "ﾎﾝﾅﾖｳｺ",
+        "tags": ["ジブリ"]
+    },
+    {
+        "title": "ルージュの伝言",
+        "title_kana": "ﾙｰｼﾞｭﾉﾃﾞﾝｺﾞﾝ",
+        "artist": "松任谷由実",
+        "artist_kana": "ﾏﾂﾄｳﾔﾕﾐ",
+        "tags": ["ジブリ"]
+    },
+    {
+        "title": "風の谷のナウシカ",
+        "title_kana": "ｶｾﾞﾉﾀﾆﾉﾅｳｼｶ",
+        "artist": "安田成美",
+        "artist_kana": "ﾔｽﾀﾞﾅﾙﾐ",
+        "tags": ["ジブリ"]
+    },
+    {
+        "title": "アデュー・サロー",
+        "title_kana": "ｱﾃﾞｭｰｻﾛｰ",
+        "artist": "猫又おかゆ",
+        "artist_kana": "ﾈｺﾏﾀｵｶﾕ",
+        "tags": ["ホロライブ", "VTuber"]
+    },
+    {
+        "title": "ウラノミト",
+        "title_kana": "ｳﾗﾉﾐﾄ",
+        "artist": "月ノ美兎",
+        "artist_kana": "ﾂｷﾉﾐﾄ",
+        "tags": ["にじさんじ", "VTuber"]
+    },
+    {
+        "title": "メイジ・オブ・バイオレット",
+        "title_kana": "ﾒｲｼﾞｵﾌﾞﾊﾞｲｵﾚｯﾄ",
+        "artist": "紫咲シオン",
+        "artist_kana": "ﾑﾗｻｷｼｵﾝ",
+        "tags": ["ホロライブ", "VTuber"]
+    },
+    {
+        "title": "サインはB",
+        "title_kana": "ｻｲﾝﾊﾋﾞｰ",
+        "artist": "B小町",
+        "artist_kana": "ﾋﾞｰｺﾏﾁ",
+        "tags": []
+    },
+    {
+        "title": "赤い糸",
+        "title_kana": "ｱｶｲｲﾄ",
+        "artist": "コブクロ",
+        "artist_kana": "ｺﾌﾞｸﾛ",
+        "tags": []
+    },
+    {
+        "title": "蒼く 優しく",
+        "title_kana": "ｱｵｸﾔｻｼｸ",
+        "artist": "コブクロ",
+        "artist_kana": "ｺﾌﾞｸﾛ",
+        "tags": []
+    },
+    {
+        "title": "時の足音",
+        "title_kana": "ﾄｷﾉｱｼｵﾄ",
+        "artist": "コブクロ",
+        "artist_kana": "ｺﾌﾞｸﾛ",
+        "tags": []
+    },
+    {
+        "title": "桜",
+        "title_kana": "ｻｸﾗ",
+        "artist": "コブクロ",
+        "artist_kana": "ｺﾌﾞｸﾛ",
+        "tags": []
+    },
+    {
+        "title": "レッツゴー！ 陰陽師",
+        "title_kana": "ﾚｯﾂｺﾞｰｵﾝﾐｮｳｼﾞ",
+        "artist": "矢部野彦麿&琴姫With坊主ダンサーズ ",
+        "artist_kana": "ﾔﾍﾞﾉﾋｺﾏﾛ ｺﾄﾋﾒ ﾎﾞｳｽﾞﾀﾞﾝｻｰｽﾞ",
+        "tags": []
+    },
+    {
+        "title": "聖少女領域",
+        "title_kana": "ｾｲｼｮｳｼﾞｮﾘｮｳｲｷ",
+        "artist": "ALI PROJECT",
+        "artist_kana": "ｱﾘﾌﾟﾛｼﾞｪｸﾄ",
+        "tags": []
+    },
+    {
+        "title": "残酷な天使のテーゼ",
+        "title_kana": "ｻﾞﾝｺｸﾅﾃﾝｼﾉﾃｰｾﾞ",
+        "artist": "高橋洋子",
+        "artist_kana": "ﾀｶﾊｼﾖｳｺ",
+        "tags": []
+    },
+    {
+        "title": "千本桜",
+        "title_kana": "ｾﾝﾎﾞﾝｻﾞｸﾗ",
+        "artist": "黒うさP",
+        "artist_kana": "ｸﾛｳｻﾋﾟｰ",
+        "tags": ["VOCALOID"]
+    },
+    {
+        "title": "ニホンノミカタ",
+        "title_kana": "ﾆﾎﾝﾉﾐｶﾀ",
+        "artist": "矢島美容室",
+        "artist_kana": "ﾔｼﾞﾏﾋﾞﾖｳｼﾂ",
+        "tags": []
+    },
+    {
+        "title": "Pastel Tea Time",
+        "title_kana": "ﾊﾟｽﾃﾙﾃｨｰﾀｲﾑ",
+        "artist": "尾丸ポルカ",
+        "artist_kana": "ｵﾏﾙﾎﾟﾙｶ",
+        "tags": ["ホロライブ", "VTuber"]
+    },
+    {
+        "title": "常夜リペイント",
+        "title_kana": "ｼﾞｮｳﾔﾘﾍﾟｲﾝﾄ",
+        "artist": "秘密結社holoX",
+        "artist_kana": "ﾋﾐﾂｹｯｼｬﾎﾛｯｸｽ",
+        "tags": ["ホロライブ", "VTuber"]
+    },
+    {
+        "title": "絶望レストラン",
+        "title_kana": "ｾﾞﾂﾎﾞｳﾚｽﾄﾗﾝ",
+        "artist": "絶望少女達(小森霧、常月まとい、小節あびる、藤吉晴美)",
+        "artist_kana": "ｾﾞﾂﾎﾞｳｼｮｳｼﾞｮﾀﾁ",
+        "tags": []
+    },
+    {
+        "title": "マリン出航",
+        "title_kana": "ﾏﾘﾝｼｭｯｺｳ",
+        "artist": "宝鐘マリン",
+        "artist_kana": "ﾎｳｼｮｳﾏﾘﾝ",
+        "tags": ["ホロライブ", "VTuber"]
+    },
 ]
 
 export{

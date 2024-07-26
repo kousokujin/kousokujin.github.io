@@ -6,7 +6,7 @@
                 <v-card-subtitle>{{item.artist}}</v-card-subtitle>
                 <v-card-text>
                     <div class="d-flex ga-2">
-                        <v-chip size="small" v-for="tag in item.tags">{{tag}}</v-chip>
+                        <v-chip size="small" v-for="tag in item.tags" v-on:click="TagClick(tag)">{{tag}}</v-chip>
                     </div>
                 </v-card-text>
             </v-card>
@@ -23,4 +23,8 @@
 
     const props = defineProps<Props>();
     const song_data = reactive<SongDataList>(props.data);
+
+    function TagClick(tag: string){
+        song_data.filter_word = tag
+    }
 </script>

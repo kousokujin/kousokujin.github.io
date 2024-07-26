@@ -16,7 +16,7 @@
         -->
         <v-col>
             <div class="d-flex align-left flex-column pa-6">
-                <v-text-field label="検索" v-model="song_data.filter_word"></v-text-field>
+                <v-text-field label="検索" v-model="song_data.filter_word" clearable></v-text-field>
             </div>
         </v-col>
     </v-row>

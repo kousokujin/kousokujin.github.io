@@ -1,3 +1,6 @@
+import { fi } from "vuetify/locale";
+import {ConvertHankana} from "./HanKanaConvert"
+
 interface ISong{
     title: string,
     title_kana: string,
@@ -17,6 +20,9 @@ class SongDataList{
     set filter_word(word: string) {
         this._filter_word = word;
         this.SortAndFilter();
+    }
+    get filter_kana_word() : string{
+        return ConvertHankana(this._filter_word)
     }
 
     _sort_mode : "title" | "artist" | "";
@@ -91,7 +97,10 @@ class SongDataList{
 
         this.song_filterd = this.song_filterd.filter(x => {
             return  x.title.toLowerCase().indexOf(this._filter_word.toLowerCase()) !== -1 ||
-                    x.artist.toLowerCase().indexOf(this._filter_word.toLowerCase()) !== -1
+                    x.artist.toLowerCase().indexOf(this._filter_word.toLowerCase()) !== -1 ||
+                    x.title_kana.toLocaleLowerCase().indexOf(this.filter_kana_word.toLocaleLowerCase()) !== -1 ||
+                    x.artist_kana.toLocaleLowerCase().indexOf(this.filter_kana_word.toLocaleLowerCase()) !== -1 ||
+                    this.IsIncludeTag(x, this._filter_word)
         });
     }
 
@@ -99,6 +108,13 @@ class SongDataList{
         this.song_filterd = this.song_orgin;
         this.Filter();
         this.Sort();
+    }
+
+    IsIncludeTag(song : ISong, str: string){
+        let filtered = song.tags.filter(x=>{
+            return x === str
+        });
+        return filtered.length > 0;
     }
 }
 
