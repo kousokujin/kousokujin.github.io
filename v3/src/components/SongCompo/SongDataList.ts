@@ -1,4 +1,3 @@
-import { fi } from "vuetify/locale";
 import {ConvertHankana} from "./HanKanaConvert"
 
 interface ISong{

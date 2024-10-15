@@ -27,7 +27,6 @@
 <script setup lang="ts">
     import { ref, reactive, computed } from "vue";
     import { useDisplay } from "vuetify";
-    //import { mdiTable, mdiViewModule} from '@mdi/js'
 
     import {songs} from "@/components/SongCompo/KSJSongs"
     import {SongDataList} from "@/components/SongCompo/SongDataList"
@@ -36,7 +35,6 @@
 
     const {xs, sm} = useDisplay();
 
-    //const view_type = ref(0);
     const song_data = reactive(new SongDataList(songs))
 
     const ismobile = computed(()=>{

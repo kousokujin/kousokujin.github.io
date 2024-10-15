@@ -18,11 +18,11 @@
             </v-card>
         </v-col>
     </v-row>
-    <v-icon icon="siSImpleicons.path"></v-icon>
 </template>
 <script setup lang="ts">
     import { mdiTwitter, mdiGithub, mdiSteam, mdiStar } from '@mdi/js'
     import { siDiscord, siMisskey } from 'simple-icons';
+    import reality_icon from "@/components/icon/CIReality.vue"
 
     const href_list = [
         {
@@ -60,6 +60,12 @@
             icon: mdiStar,
             description: "ほしいって思ってるものリスト。送ってくれるとうれしいな",
             href: "https://www.amazon.jp/hz/wishlist/ls/26X6O8SUUEDE4?ref_=wl_share"
+        },
+        {
+            title: "REALITY",
+            icon: reality_icon,
+            description: "たまに配信したりしなかったり・・・",
+            href: "https://reality.app/profile/b9b91586?adj_t=8ogcewh_z9yhix5"
         }
     ]
 </script>
