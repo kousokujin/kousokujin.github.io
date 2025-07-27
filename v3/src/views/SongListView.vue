@@ -1,19 +1,5 @@
 <template>
     <v-row>
-        <!--
-        <v-col cols="3" sm="3">
-            <div class="d-flex align-left flex-column pa-6">
-                <v-btn-toggle
-                    v-model="view_type"
-                    variant="outlined"
-                    divided
-                >
-                    <v-btn size="small" :icon="mdiTable"></v-btn>
-                    <v-btn size="small" :icon="mdiViewModule"></v-btn>
-                </v-btn-toggle>
-            </div>
-        </v-col>
-        -->
         <v-col>
             <div class="d-flex align-left flex-column pa-6">
                 <v-text-field label="検索" v-model="song_data.filter_word" clearable></v-text-field>

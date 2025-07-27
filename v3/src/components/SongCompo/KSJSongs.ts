@@ -408,8 +408,8 @@ const songs = [
     {
         "title": "光の果て",
         "title_kana": "ﾋｶﾘﾉﾊﾃ",
-        "artist": "クーナ",
-        "artist_kana": "ｸｰﾅ",
+        "artist": "クーナ(CV:喜多村英梨)",
+        "artist_kana": "ｸｰﾅ ｷﾀｶﾀｴﾘ",
         "tags": ["PSO2"]
     },
     {
@@ -575,7 +575,7 @@ const songs = [
     },
     {
         "title": "中空の庭",
-        "title_kana": "ﾍﾞｯｾｶｲ",
+        "title_kana": "ﾁｭｳｸｳﾉﾆﾜ",
         "artist": "天音かなた",
         "artist_kana": "ｱﾏﾈｶﾅﾀ",
         "tags": ["ホロライブ", "VTuber"]
@@ -768,6 +768,258 @@ const songs = [
         "artist": "宝鐘マリン",
         "artist_kana": "ﾎｳｼｮｳﾏﾘﾝ",
         "tags": ["ホロライブ", "VTuber"]
+    },
+    {
+        "title": "愛して愛して愛して",
+        "title_kana": "ｱｲｼﾃｱｲｼﾃｱｲｼﾃ",
+        "artist": "きくお",
+        "artist_kana": "きくお",
+        "tags": ["VOCALOID"]
+    },
+    {
+        "title": "#あくあ色パレット",
+        "title_kana": "ｱｸｱｲﾛﾊﾟﾚｯﾄ",
+        "artist": "湊あくあ",
+        "artist_kana": "ﾐﾅﾄｱｸｱ",
+        "tags": ["ホロライブ", "VTuber"]
+    },
+    {
+        "title": "KING",
+        "title_kana": "ｷﾝｸﾞ",
+        "artist": "Kanaria",
+        "artist_kana": "ｶﾅﾘｱ",
+        "tags": ["VOCALOID"]
+    },
+    {
+        "title": "女の子になりたい",
+        "title_kana": "ｵﾝﾅﾉｺﾆﾅﾘﾀｲ",
+        "artist": "まふまふ",
+        "artist_kana": "ﾏﾌﾏﾌ",
+        "tags": []
+    },
+    {
+        "title": "OurFighting",
+        "title_kana": "ｱﾜｰﾌｧｲﾃｨﾝｸﾞ",
+        "artist": "クーナ(CV:喜多村英梨)",
+        "artist_kana": "ｸｰﾅ ｷﾀｶﾀｴﾘ",
+        "tags": []
+    },
+    {
+        "title": "ブルーバード",
+        "title_kana": "ﾌﾞﾙｰﾊﾞｰﾄﾞ",
+        "artist": "いきものがかり",
+        "artist_kana": "ｲｷﾓﾉｶﾞｶﾘ",
+        "tags": []
+    },
+    {
+        "title": "幽霊船戦",
+        "title_kana": "ﾕｳﾚｲｾﾝｾﾝ",
+        "artist": "宝鐘マリン",
+        "artist_kana": "ﾎｳｼｮｳﾏﾘﾝ",
+        "tags": ["ホロライブ", "VTuber"]
+    },
+    {
+        "title": "Girls in Wonderland",
+        "title_kana": "ｶﾞｰﾙｽﾞｲﾝﾜﾝﾀﾞｰﾗﾝﾄﾞ",
+        "artist": "放課後ティータイム",
+        "artist_kana": "ﾎｳｶｺﾞﾃｨｰﾀｲﾑ",
+        "tags": []
+    },
+    {
+        "title": "Philosophyz",
+        "title_kana": "ﾌｨﾛｿﾌｨｰｽﾞ",
+        "artist": "水谷瑠奈",
+        "artist_kana": "ﾐｽﾞﾀﾆﾙﾅ",
+        "tags": []
+    },
+    {
+        "title": "sweets parade",
+        "title_kana": "ｽｲｰﾂﾊﾟﾚｰﾄﾞ",
+        "artist": "髏々宮カルタ(CV: 花澤香菜)",
+        "artist_kana": "ﾛﾛﾐﾔｶﾙﾀ ﾊﾅｻﾞﾜｶﾅ",
+        "tags": []
+    },
+    {
+        "title": "Catch You Catch Me",
+        "title_kana": "ｷｬｯﾁﾕｰｷｬｯﾁﾐｰ",
+        "artist": "日向めぐみ",
+        "artist_kana": "ﾋﾅﾀﾒｸﾞﾐ",
+        "tags": []
+    },
+    {
+        "title": "イカサマライフゲイム",
+        "title_kana": "ｲｶｻﾏﾗｲﾌｹﾞｲﾑ",
+        "artist": "kemu",
+        "artist_kana": "ｹﾑ",
+        "tags": ["VOCALOID"]
+    },
+    {
+        "title": "シアワセ",
+        "title_kana": "ｼｱﾜｾ",
+        "artist": "aiko",
+        "artist_kana": "ｱｲｺ",
+        "tags": []
+    },
+    {
+        "title": "スマイル",
+        "title_kana": "ｽﾏｲﾙ",
+        "artist": "江崎とし子",
+        "artist_kana": "ｴｻﾞｷﾄｼｺ",
+        "tags": ["ポケモン"]
+    },
+    {
+        "title": "シュガーソングとビターステップ",
+        "title_kana": "ｼｭｶﾞｰｿﾝｸﾞﾄﾋﾞﾀｰｽﾃｯﾌﾟ",
+        "artist": "UNISON SQUARE GARDEN",
+        "artist_kana": "ﾕﾆｿﾞﾝｽｸｴｱｶﾞｰﾃﾞﾝ",
+        "tags": []
+    },
+    {
+        "title": "帝国少女",
+        "title_kana": "ﾃｲｺｸｼｮｳｼﾞｮ",
+        "artist": "R Sound Design",
+        "artist_kana": "ｱｰﾙｻｳﾝﾄﾞﾃﾞｻﾞｲﾝ",
+        "tags": ["VOCALOID"]
+    },
+    {
+        "title": "灼熱にて純情(wii-wii-woo)",
+        "title_kana": "ｼｬｸﾈﾂﾆﾃｼﾞｭﾝｼﾞｮｳ ｳｨｰｳｨｰｳｰ",
+        "artist": "星街すいせい",
+        "artist_kana": "ﾎｼﾏﾁｽｲｾｲ",
+        "tags": ["ホロライブ", "VTuber"]
+    },
+    {
+        "title": "モエチャッカファイア",
+        "title_kana": "ﾓｴﾁｬｯｶﾌｧｲｱ",
+        "artist": "弌誠",
+        "artist_kana": "ｲｯｾｲ",
+        "tags": []
+    },
+    {
+        "title": "バニー",
+        "title_kana": "ﾊﾞﾆｰ",
+        "artist": "すりぃ",
+        "artist_kana": "ｽﾘｨ",
+        "tags": ["VOCALOID"]
+    },
+    {
+        "title": "ドレミファロンド",
+        "title_kana": "ﾄﾞﾚﾐﾌｧﾛﾝﾄﾞ",
+        "artist": "40mP",
+        "artist_kana": "ﾖﾝｼﾞｭｳﾒｰﾄﾙﾋﾟｰ",
+        "tags": ["VOCALOID"]
+    },
+    {
+        "title": "いい日旅立ち",
+        "title_kana": "ｲｲﾋﾀﾋﾞﾀﾞﾁ",
+        "artist": "山口百恵",
+        "artist_kana": "ﾔﾏｸﾞﾁﾓﾓｴ",
+        "tags": []
+    },
+    {
+        "title": "津軽海峡・冬景色",
+        "title_kana": "ﾂｶﾞﾙｶｲｷｮｳﾌﾕｹﾞｼｷ",
+        "artist": "石川さゆり",
+        "artist_kana": "ｲｼｶﾜｻﾕﾘ",
+        "tags": []
+    },
+    {
+        "title": "一旦ステイ TONIGHT",
+        "title_kana": "ｲｯﾀﾝｽﾃｲﾄｩﾅｲﾄ",
+        "artist": "不破湊",
+        "artist_kana": "ﾌﾜﾐﾅﾄ",
+        "tags": ["にじさんじ", "VTuber"]
+    },
+    {
+        "title": "ハルジオン",
+        "title_kana": "ﾊﾙｼﾞｵﾝ",
+        "artist": "YOASOBI",
+        "artist_kana": "ﾖｱｿﾋﾞ",
+        "tags": []
+    },
+    {
+        "title": "うそつき",
+        "title_kana": "ｳｿﾂｷ",
+        "artist": "めざめP",
+        "artist_kana": "ﾒｻﾞﾒﾋﾟｰ",
+        "tags": ["VOCALOID"]
+    },
+    {
+        "title": "Tulip",
+        "title_kana": "ﾁｭｰﾘｯﾌﾟ",
+        "artist": "速水奏 塩見周子 城ヶ崎美嘉 宮本フレデリカ 一ノ瀬志希",
+        "artist_kana": "ﾊﾔﾐｶﾅﾃﾞ ｼｵﾐｼｭｳｺ ｼﾞｮｳｶﾞｻｷﾐｶ ﾐﾔﾓﾄﾌﾚﾃﾞﾘｶ ｲﾁﾉｾｼｷ",
+        "tags": ["アイドルマスター"]
+    },
+    {
+        "title": "愛♡スクリ～ム!",
+        "title_kana": "ｱｲｽｸﾘｰﾑ",
+        "artist": "AiScReam(黒澤ルビィ 上原歩夢 若菜四季)",
+        "artist_kana": "ｱｲｽｸﾘｰﾑ ｸﾛｻﾜﾙﾋﾞｨ ｳｴﾊﾗｱﾕﾑ ﾜｶﾅｼｷ",
+        "tags": ["ラブライブ"]
+    },
+    {
+        "title": "世界の約束",
+        "title_kana": "ｾｶｲﾉﾔｸｿｸ",
+        "artist": "倍賞千恵子",
+        "artist_kana": "ﾊﾞｲｼｮｳﾁｴｺ",
+        "tags": ["ジブリ"]
+    },
+    {
+        "title": "君をのせて",
+        "title_kana": "ｷﾐｦﾉｾﾃ",
+        "artist": "井上あずみ",
+        "artist_kana": "ｲﾉｳｴｱｽﾞﾐ",
+        "tags": ["ジブリ"]
+    },
+    {
+        "title": "相思相愛",
+        "title_kana": "ｿｳｼｿｳｱｲ",
+        "artist": "aiko",
+        "artist_kana": "ｱｲｺ",
+        "tags": []
+    },
+    {
+        "title": "二人",
+        "title_kana": "ﾌﾀﾘ",
+        "artist": "aiko",
+        "artist_kana": "ｱｲｺ",
+        "tags": []
+    },
+    {
+        "title": "Stellar Stellar",
+        "title_kana": "ｽﾃﾗｽﾃﾗ",
+        "artist": "星街すいせい",
+        "artist_kana": "ﾎｼﾏﾁｽｲｾｲ",
+        "tags": ["ホロライブ", "VTuber"]
+    },
+    {
+        "title": "Caramel Pain",
+        "title_kana": "ｷｬﾗﾒﾙﾍﾟｲﾝ",
+        "artist": "星街すいせい",
+        "artist_kana": "ﾎｼﾏﾁｽｲｾｲ",
+        "tags": ["ホロライブ", "VTuber"]
+    },
+    {
+        "title": "SAYONARA MEYBE",
+        "title_kana": "ｻﾖﾅﾗﾒｲﾋﾞｰ",
+        "artist": "NOMELON NOMELON",
+        "artist_kana": "ﾉｰﾒﾛﾝ ﾉｰﾒﾛ",
+        "tags": []
+    },
+    {
+        "title": "モニタリング",
+        "title_kana": "ﾓﾆﾀﾘﾝｸﾞ",
+        "artist": "DECO*27",
+        "artist_kana": "ﾃﾞｺﾆｰﾅ",
+        "tags": ["VOCALOID"]
+    },
+    {
+        "title": "テトリス",
+        "title_kana": "ﾃﾄﾘｽ",
+        "artist": "柊マグネタイト",
+        "artist_kana": "ﾋｲﾗｷﾞﾏｸﾞﾈﾀｲﾄ",
+        "tags": ["VOCALOID"]
     },
 ]
 
